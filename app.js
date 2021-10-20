@@ -1,5 +1,10 @@
-var btnTranslate = document.querySelector('#btn=translate')
+var btnTranslate = document.querySelector("#btn-translate");
+var inputArea = document.querySelector('textarea')
 
-btnTranslate.addEventListener('click', function Eventhandler() {
-    console.log("Clicked");
-})
+
+btnTranslate.addEventListener("click", Eventhandler)
+
+function Eventhandler() {
+    console.log("clicked!!")
+    console.log(inputArea.value)
+}
