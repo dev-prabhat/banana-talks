@@ -3,4 +3,13 @@ textarea{
     height: 10vh;
     margin: 1rem;
     padding: 1rem;
+    display: block;
+}
+#output{
+    border: 1px solid black;
+    width: 90%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
 }
