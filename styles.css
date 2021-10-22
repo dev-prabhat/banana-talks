@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
 body{
+    margin-top: 0;
     font-family: 'Lora', serif;
 }
 textarea{
@@ -9,7 +10,7 @@ textarea{
     margin: 0.5rem 10rem;
     padding: 1rem;
     display: block;
-    font-size: 30px;
+    font-size: 2rem;
 }
 #output{
     border: 1px solid black;
@@ -22,11 +23,18 @@ textarea{
 #btn-translate{
     padding: 1rem;
     margin: 0.5rem 10rem;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-family: 'Lora', serif;
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 2rem;
+    cursor: pointer;
 }
 h1{
     text-align: center;
+    background-color: yellow;
+    margin-top: 0;
+    padding: 1rem 0;
 }
 h3{
     margin-left: 10rem;
