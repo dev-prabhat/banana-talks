@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+body{
+    font-family: 'Lora', serif;
+}
 textarea{
     width: 70%;
     height: 25vh;
@@ -17,6 +22,8 @@ textarea{
 #btn-translate{
     padding: 1rem;
     margin: 0.5rem 10rem;
+    font-size: 20px;
+    font-family: 'Lora', serif;
 }
 h1{
     text-align: center;
